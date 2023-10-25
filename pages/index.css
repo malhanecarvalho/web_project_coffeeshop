@@ -35,7 +35,6 @@
 .nav__links{
   display: flex;
   align-items: center;
-  margin: 8px 0 0;
   list-style: none;
   column-gap: 20px;
 }
@@ -49,18 +48,18 @@
 .header__title{
   max-width: 601px;
   font-size: 45px;
-  margin: 128px 0 0;
+  margin: 180px 0 0;
   font-family:"Noto Serif", "Times New Roman", serif; ;
-  color: #2f80ed;
-  font-family: "Noto Serif", "Times New Roman", serif;
   color: #2f80ed;
   font-style: italic;
   font-weight: 500;
+  padding-left: 30px;
 }
 
 .header__subtitle{
   font-size: 42px;
   font-weight: 500;
+  padding-left: 30px;
 }
 
 .header__description{
@@ -69,12 +68,34 @@
   line-height: 20px;
   margin: 0;
   font-family: Noto-Serif;
+  padding-left: 30px;
 }
  .header__image{
   z-index: 1;
   position: absolute;
-  top: 135px;
+  top: 90px;
   right: 20px;
   max-width: 636px;
 
+ }
+ .header__footer{
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 220px;
+  margin-left: -20px;
+ }
+
+ .header__hour{
+  margin: 0;
+  color: #838383;
+  list-style: none;
+ }
+
+ .header__address{
+  margin: 0;
+  color: #838383;
  }
