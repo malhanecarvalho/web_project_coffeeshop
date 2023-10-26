@@ -70,6 +70,13 @@
   font-family: Noto-Serif;
   padding-left: 30px;
 }
+
+.header__background{
+z-index: -1;
+position: absolute;
+right: 0;
+}
+
  .header__image{
   z-index: 1;
   position: absolute;
@@ -101,8 +108,17 @@
  }
 
  .content{
-
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height:720px;
+  max-height:800px ;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
  }
+
+ .content__title
 
  .footer{
 
