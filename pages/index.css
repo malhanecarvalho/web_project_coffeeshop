@@ -5,6 +5,7 @@
   font-family: "Inter", "Arial", sans-serif, "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
+
 }
 
 .header{
@@ -13,7 +14,6 @@
   height: 100vh;
   min-height:720px;
   max-height:800px ;
-  padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
 }
@@ -22,13 +22,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  top: 30px;
+  left: 30px;
 }
 
 .nav__logo{
   display: flex;
   align-items: start;
-  width: 80px;
-  height: 57px;
+  width: 105px;
+  height: 39px;
+  position: relative;
+  top: 30px;
+  left: 30px;
 
 }
 
@@ -37,6 +43,9 @@
   align-items: center;
   list-style: none;
   column-gap: 20px;
+  position: relative;
+  top: 30px;
+  right: 80px;
 }
 
 .nav__link{
@@ -45,44 +54,49 @@
   font-weight: lighter;
 }
 
-.header__title{
-  font-size: 57px;
-  margin: 206px 0 0;
+.span-accent{
   font-family:"Noto Serif", "Times New Roman", serif;
   color: #2f80ed;
   font-style: italic;
-  font-weight: 500;
-  padding-left: 30px;
 }
 
-.header__subtitle{
-  font-size: 50px;
+.header__title{
+  font-size: 60px;
   font-weight: 500;
-  padding-left: 30px;
+  margin-left: 80px;
+  max-width: 729px;
+  letter-spacing: 0.6px;
+  line-height: 72px;
+  margin-top: 183px;
+  margin-left: 80px;
 }
 
 .header__description{
-  max-width: 627px;
-  font-size: 18px;
-  line-height: 26px;
-  margin: 0;
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+  margin-top:28px;
   font-family:"Noto Serif", "Times New Roman", serif;
-  padding-left: 30px;
+  margin-left: 80px;
 }
 
 .header__background{
-z-index: -1;
-position: absolute;
-right: -28px;
-top: -1px;
+
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    right: 0;
 }
+
 
  .header__image{
   z-index: 1;
-  position: absolute;
-  top: 120px;
-  right: 20px;
-  max-width: 629px;
+    position: absolute;
+    top: 124px;
+    right: 1px;
+    width: 646px;
+    height: 568px;
 
  }
  .header__footer{
@@ -96,14 +110,18 @@ top: -1px;
  }
 
  .header__hour{
-  margin: 0;
   color: #838383;
   list-style: none;
+  margin-left: 60px;
+  margin-bottom: 31px;
  }
 
  .header__address{
   margin: 0;
   color: #838383;
+  margin: 0;
+  color: #838383;
+  margin-right: 80px;
  }
 
  .content{
@@ -112,35 +130,73 @@ top: -1px;
   height: 100vh;
   min-height:720px;
   max-height:800px ;
-  padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
-  background-color: midnightblue;
+  background-color: #0a2750 ;
  }
 
  .recipes__title{
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 44px;
+  font-weight: 500;
   padding-left: 30px;
   color: #fff;
   margin-top: 72px;
+  line-height: 52px;
+  max-width: 580px;
+margin-top: 100px;
+margin-left: 80px;
  }
 
  .recipes__description{
-  max-width: 388px;
+  max-width: 438px;
   font-size: 20px;
-  line-height: 27px;
+  line-height: 30px;
   padding-left: 30px;
   font-family:"Noto Serif", "Times New Roman", serif;
   color: #fff;
+ margin-left: 80px;
+ margin-top: 24px;
  }
 
  .recipes__image{
-  position: absolute;
-  right:39px;
-  top: -49px;
-  max-height: 992px;
-  z-index: 0;
+    position: absolute;
+    right: 39px;
+    top: -49px;
+    max-height: 992px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .recipes__video{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+  column-gap: 40px;
+  margin-top: 80px;
+
+ }
+
+ .recipes__iframes{
+  width:480px;
+  height: 273px;
+ }
+
+ .video-caption{
+  display: flex;
+  color: #fff;
+  column-gap: 40px;
+  font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+margin-left: 216px;
+position: relative;
+
+
  }
  .footer{
 
