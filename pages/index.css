@@ -136,7 +136,7 @@
   background-color: #0a2750 ;
  }
 
- .recipes__subtitle{
+ .recipes__title{
   font-size: 44px;
   font-weight: 500;
   padding-left: 30px;
@@ -148,7 +148,7 @@ margin-top: 100px;
 margin-left: 80px;
  }
 
- .recipes__description{
+ .recipes__subtitle{
   max-width: 438px;
   font-size: 20px;
   line-height: 30px;
