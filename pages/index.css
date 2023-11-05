@@ -182,19 +182,21 @@ margin-left: 80px;
  .recipes__iframes{
   width:480px;
   height: 273px;
+  border:0px;
  }
 
- .video-caption{
+ .recipes__video-caption{
   display: flex;
-  color: #fff;
-  column-gap: 40px;
-  font-family: "Inter";
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-margin-left: 216px;
-position: relative;
+    color: #fff;
+    column-gap: 133px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 47px;
+    position: relative;
+    justify-content: center
 
 
  }
