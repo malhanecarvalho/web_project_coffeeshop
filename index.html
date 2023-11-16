@@ -67,10 +67,42 @@
       </section>
 
       <section class="reservation" id="reservation">
-        <div class="reservation__content">
         <h2 class="reservation__title">Reservar uma Mesa</h2>
+        <form class="form">
+          <div class="reservation__form">
+        <fieldset class="form__fieldset">
+         <label for="Nome" class="form__label">Nome</label>
+         <input type="text" class="form__input form__input_itens" id="Nome" placeholder="Nome" required>
+        </fieldset>
 
-      </div>
+        <fieldset class="form__fieldset">
+          <label for="Número de convidados" class="form__label">Número de convidados</label>
+          <input type="number" min="1" max="10" class="form__input form__input_itens" id="Número de convidados" placeholder="1-8" required>
+         </fieldset>
+
+         <fieldset class="form__fieldset">
+          <label for="Data & hora" class="form__label">Data & hora</label>
+          <input type="date" min="1" max="10" class="form__input form__input_itens" id="Data & hora" required>
+         </fieldset>
+
+         <fieldset class="form__fieldset">
+          <label for="Seu e-mail" class="form__label">Seu e-mail</label>
+          <input type="email" class="form__input form__input_itens" id="Seu e-mail" placeholder="email@email.com" required>
+         </fieldset>
+
+         <fieldset class="form__fieldset">
+          <button type="submit" class="form__button form__button_item">Reservar uma mesa</button>
+        </fieldset>
+
+        <fieldset class="form__fieldset">
+          <label for="Eu concordo com os termos de uso" class="form__label form__label_type_checkbox">Eu concordo com os termos de uso
+            <input type="checkbox"  class="form__checkbox " id="Eu concordo com os termos de uso" required checked>
+          </label>
+
+         </fieldset>
+
+          </div>
+        </form>
       </section>
       <section class="menu" id="menu">
         <h2 class="menu__title">Menu</h2>
@@ -171,7 +203,7 @@
       </ul>
      </div>
      </div>
-<p class="footer__copyright">Malhane Carvalho</p>
+<p class="footer__copyright">© 2023 Malhane Carvalho</p>
     </section>
 
 
