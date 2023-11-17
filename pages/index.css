@@ -211,7 +211,6 @@ margin: 80px auto 120px;
 
 .form__fieldset{
 border: none;
-margin-bottom: 32px;
 }
 
 .form__label{
@@ -239,7 +238,7 @@ margin-bottom: 32px;
 }
 
 .form__button:focus{
-opacity: 70%;
+opacity: .7;
 
 }
 
@@ -258,21 +257,21 @@ height: 60px;
   border: 1px solid #838383;
 }
 
+.form__item:focus {
+  outline-color: #fff6c5;
+
+}
 
 .form__checkbox{
 border-radius: 2px;
 width: 20px;
 height: 20px;
-background-color: #2f80ed;
-}
+vertical-align: middle;
 
-.form__checkbox + .form__label_type_checkbox:checked{
-  background-image: url(../images/check.svg);
 }
 
 .form__label_type_checkbox{
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   column-gap: 12px;
