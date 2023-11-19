@@ -1,0 +1,85 @@
+.menu{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  background-color:#fff;
+  background-image: url(../images/background_menu.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.menu__title{
+  font-size: 44px;
+  font-weight: 500;
+  color: #000;
+  margin: 100px auto 24px;
+  line-height: 52px;
+  max-width: 780px;
+  text-align: center;
+
+}
+
+.menu__subtitle{
+  max-width: 780px;
+  font-size: 19px;
+  line-height: 30px;
+  font-family:"Noto Serif", "Times New Roman", serif;
+  color: #000;
+  margin: 24px auto 100px;
+}
+
+.menu__image{
+background-image: url(../images/background_menu.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.menu__cards{
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+    row-gap: 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.card{
+
+ width: 540px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.card__title{
+font-family: "Inter";
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+
+
+
+
+
+.card__list-item{
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #bcbcc4;
+}
+
+.card__list-divider{
+display: flex;
+}
